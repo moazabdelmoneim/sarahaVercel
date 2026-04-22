@@ -1,0 +1,37 @@
+
+// first point
+2sv
+
+
+2sv 
+
+enable 2sv
+
+verify 2sv 
+
+toggle 2sv====> code through mail
+verify ======> true ===== 2sv true 
+-----------=------------------------------ done 
+
+
+login========> user.esv == true =====> otp mail verify =======> token 
+
+
+=========> token
+
+
+=====================> done 
+
+
+forget Pass and reset Pass
+
+forget =====> otp mail ======> verify ot=== true 
+
+reset pass 
+
+
+===.    done
+
+
+
+bann user ===> login 5 times attempt false ====> cannot login within. 5 minutes /// Done
