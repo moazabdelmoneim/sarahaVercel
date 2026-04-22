@@ -4,7 +4,7 @@ import { authRouter, userRouter } from "./modules/index.js";
 import { env } from "../config/config.service.js";
 import cors from "cors";
 
-const bootstrap = (app) => {
+const bootstrap = async (app) => {
 	app.use(cors())
 	app.use(express.json());
 	app.use('/uploads',express.static('uploads'))
@@ -15,7 +15,7 @@ const bootstrap = (app) => {
 	});
 	app.use("/auth", authRouter);
 	app.use("/users", userRouter);
-	connectDB();
+	await connectDB();
 
 	app.use((err, req, res, next) => {
 		const statusCode = err.cause?.status || 500;
