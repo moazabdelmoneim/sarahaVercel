@@ -2,10 +2,10 @@
   "name": "mongooseassignment",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/main.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "node --watch ./src/main.js"
+    "start:dev": "node --watch ./src/index.js"
   },
   "keywords": [],
   "author": "",
